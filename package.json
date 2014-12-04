@@ -1,0 +1,23 @@
+{
+  "name": "rehearsalbookings",
+  "version": "1.0.0",
+  "description": "Rehearsal room booking system",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sammorrowdrums/rehearsalbookings"
+  },
+  "author": "Sam Morrow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sammorrowdrums/rehearsalbookings/issues"
+  },
+  "homepage": "https://github.com/sammorrowdrums/rehearsalbookings",
+  "dependencies": {
+    "express": "^4.10.4",
+    "passport": "^0.2.1"
+  }
+}
