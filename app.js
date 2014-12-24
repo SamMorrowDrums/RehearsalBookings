@@ -5,6 +5,7 @@ var express = require('express'),
 app.get('/:name?', function (req, res) {
     var name = req.params.name || 'World';
     res.write('<h1>Hello ' + name);
+    res.end();
 });
 
 app.listen(port);
